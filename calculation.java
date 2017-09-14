@@ -1,6 +1,6 @@
 import java.util.*;
 import java.lang.*;
-public class calculation implements calculator
+public class calculatorclass implements calculator
 {
 	public int sum(int a,int b)
     {
@@ -39,7 +39,7 @@ public class calculation implements calculator
     
 	public static void main(String args[]) throws Exception
       {
-		mainclass obj=new calculation();
+		mainclass obj=new calculatorclass();
     	 Scanner sc=new Scanner(System.in);
     	 while(true){
     	 System.out.print("1.Add\n2.Subtract\n3.Multiply\n4.Divide\n5.Maximum\n6.Minimum\n7.Cosine\n8.Sine\n9.Square\n10.Exit\n");
